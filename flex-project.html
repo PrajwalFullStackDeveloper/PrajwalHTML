@@ -103,13 +103,29 @@
             background-color:white;
             display: flex;
             flex-direction: column;
+            
+        }
+        .four-box{
+            width: 25vw;
+            height: 6vh;
+        }
+        .six-box{
+            width: 20vw;
+        }
+        .five-box
+        {
+            width: 25vw;
+            height: 65vh;
+             display: flex;
+            flex-direction: column;
             flex-wrap: wrap;
             align-content: flex-start;
-            justify-content: space-around;
+            justify-content:space-around;
+            gap: 2vh;
         }
         .one-box{
             width: 20vw;
-            height: 19vh;
+            height: 20vh;
             background-color:rgb(211, 171, 191);
             margin-left: 2%;
             border-left: solid 3px red;
@@ -118,7 +134,7 @@
         }
         .two-box{
             width: 20vw;
-            height: 19vh;
+            height: 20vh;
             background-color: rgb(151, 200, 181);
             margin-left: 2%;
             border-left: 3px solid green;
@@ -126,7 +142,7 @@
         }
         .three-box{
             width: 20vw;
-            height: 19vh;
+            height: 20vh;
             background-color:rgb(127, 180, 180);
             margin-left: 2%;
             border-left: 3px solid blue;
@@ -258,10 +274,14 @@
                 </table>
 
             </div>
-            <div class="box-two"><span class="name-two">Announcement</span><hr>
-            <div class="one-box"></div>
-            <div class="two-box"></div>
-            <div class="three-box"></div>
+            <div class="box-two">
+                <div class="four-box"><span class="name-two">Announcement</span><hr class="six-box">
+                </div>
+                <div class="five-box">
+            <div class="one-box"> 📚 Library closer <br></div>
+            <div class="two-box">📆 Parent-Teacher Meeting</div>
+            <div class="three-box">🏆 Sport day</div>
+            </div>
             </div>
         </div>
         <div class="header-two">
